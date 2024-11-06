@@ -65,7 +65,7 @@ const verifyOrder = async (req, res) => {
         }
         else {
             await orderModel.findByIdAndDelete(orderId)
-            res.json({ success: false, message: "Payment's Are Not Paid" })
+            res.json({ success: false, message: "Not Paid" })
         }
     } catch (error) {
         console.log(error)

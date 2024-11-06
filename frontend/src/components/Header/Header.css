@@ -1,7 +1,7 @@
 .header {
     height: 40vw;
     margin: 20px auto;
-    background: url('/src/images/food\ 1.jpg') no-repeat center/cover;
+    background: url('/food 1.jpg') no-repeat center/cover;
     border-radius: 20px;
     position: relative;
 }

@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    
+}
+.navbar .logo{
+    font-size: 40px;
+    color: tomato;
+}
+.navbar .logo .img{
+    width: 35px;
+    height: 35px;
+}
+.navbar .logo img{
+    border: none;
+}
+.navbar .logo .para{
+    color: black;
+    font-size: 14px;
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 2px;
+}

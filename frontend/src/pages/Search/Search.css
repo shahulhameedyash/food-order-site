@@ -1,0 +1,15 @@
+.search-option{
+    /* background-color: black; */
+    width: 100%;
+    height: max(5vw,50px);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.search-option input{
+    width: 80%;
+    padding: 10px 7px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 50px;
+}

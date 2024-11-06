@@ -1,0 +1,69 @@
+.fooder {
+    color: white;
+    background: linear-gradient(30deg,darkblue,rgb(59, 59, 255));
+    box-shadow: 0px 0px 40px black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8vw;
+    padding-top: 80px;
+    margin-top: 50px;
+}
+
+.fooder-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+}
+
+.fooder-content-left,
+.fooder-content-right,
+.fooder-content-center {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+h2{
+    color: tomato;
+    letter-spacing: 1px;
+}
+.fooder-content-left li,
+.fooder-content-right li,
+.fooder-content-center li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.fooder-content-center li:hover{
+background-color: tomato;
+color: white;
+width: fit-content;
+padding: 5px;
+border-radius: 10px;
+}
+.fooder-social-icons .icon{
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.fooder hr{
+    width: 100%;
+    height: 2px;
+    
+}
+@media (max-width:750px){
+   .fooder-content{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+
+   }
+   .footer-copy-right{
+    text-align: center;
+   }
+
+  
+  }

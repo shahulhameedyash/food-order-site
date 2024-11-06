@@ -8,7 +8,7 @@ import { admin } from '../../assets/assets'
 
 const Orders = () => {
 
-    const url = "http://localhost:4000"
+    const url = "https://food-order-site-backend-3hle.onrender.com"
 
     const [orders, setOrders] = useState([]);
     const fetchAllOrders = async () => {
